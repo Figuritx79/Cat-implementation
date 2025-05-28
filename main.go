@@ -21,6 +21,7 @@ func main() {
 			fmt.Println(input.Text())
 		}
 		file.Close()
+		os.Exit(1)
 	}
 
 	input = bufio.NewScanner(os.Stdin)
